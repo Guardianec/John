@@ -37,7 +37,7 @@
   }
   .john{
     width: 170px;
-    margin-top: -50px;
+
   }
   .txt1{
     width: 312px;
@@ -143,7 +143,7 @@
   text-align: left;
   }
   .footer{
-    margin-top:607px;
+    margin-top:150px;
     width: 375px;
   height: 182px;
     display: flex;
