@@ -9,6 +9,7 @@ body{
     padding:0;
     }
 .container{
+    position: relative;
     width: 375px;
     height: 1261px;
     background: #fff;
@@ -26,6 +27,27 @@ body{
 }
 i{
     font-size:30px;
+}
+.nav{
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 375px;
+    height: 100vh;
+    background: #123456;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+.white-icon{
+    color: #fff;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
 .blog{
     width: 62px;

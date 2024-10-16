@@ -10,7 +10,13 @@
 <body>
     <div class="container">
         <div class="header">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <ul class="nav">
+                <i class="fa-solid fa-x white-icon" onclick="hideMenu()"></i>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="blog.html">Our Blog</a></li>
+                <li><a href="work.html">Our Work</a></li>
+            </ul>
         </div>
         <div class="blog">Blog</div>
         <div class="component">
@@ -50,7 +56,7 @@
         </div>
     </div>
 
-
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
