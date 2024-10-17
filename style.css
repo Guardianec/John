@@ -3,6 +3,9 @@
     box-sizing:border-box;
     font-family:Heebo;
   }
+  :root{
+    scroll-behavior: smooth;
+  }
   body{
     background: #000;
     margin:0;
@@ -28,6 +31,11 @@
   }
   i{
     font-size:30px;
+    cursor: pointer;
+  }
+  i:hover{
+    outline: 1px solid coral;
+    color: #FF6464;
   }
   .nav{
     display: none;
@@ -41,6 +49,12 @@
     background: #123456;
     list-style-type: none;
     justify-content: space-evenly;
+  }
+  .nav *{
+    cursor: pointer;
+  }
+  .nav *:hover{
+    color: #FF6464;
   }
   .white-icon{
     color: #fff;
